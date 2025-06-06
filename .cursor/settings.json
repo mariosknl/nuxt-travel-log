@@ -50,5 +50,19 @@
     "scss",
     "pcss",
     "postcss"
-  ]
+  ],
+
+  // Disable Cursor AI features
+  "editor.suggest.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "cursor.ai.enabled": false,
+  "cursor.ai.suggestions.enabled": false,
+  "cursor.ai.chat.enabled": false
 }
